@@ -1,0 +1,37 @@
+{
+  "login_001": {
+    "url": "http://toutiao.itheima.net/v1_0/authorizations",
+    "mobile": "17612917750",
+    "code": "246810",
+    "except_code": "OK",
+    "status_code": 201
+  },
+  "login_002": {
+    "url": "http://toutiao.itheima.net/v1_0/authorizations",
+    "mobile": "17612917750",
+    "code": "123456",
+    "except_code": "验证码不正确",
+    "status_code": 400
+  },
+  "login_003": {
+    "url": "http://toutiao.itheima.net/v1_0/authorizations",
+    "mobile": "176129",
+    "code": "123456",
+    "except_code": "手机号或验证码格式不正确",
+    "status_code": 400
+  },
+  "login_004": {
+    "url": "http://toutiao.itheima.net/v1_0/authorizations",
+    "mobile": "",
+    "code": "123456",
+    "except_code": "手机号或验证码不正确",
+    "status_code": 400
+  },
+  "login_005": {
+    "url": "http://toutiao.itheima.net/v1_0/authorizations",
+    "mobile": "17612917750",
+    "code": "",
+    "except_code": "手机号或验证码不正确",
+    "status_code": 400
+  }
+}

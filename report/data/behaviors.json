@@ -1,0 +1,221 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "针对业务场景的测试",
+    "children" : [ {
+      "name" : "场景：用户登录",
+      "children" : [ {
+        "name" : "用例--登录--预期成功",
+        "children" : [ {
+          "name" : "用户登录-预期成功",
+          "uid" : "a5d0ab3310c71fef",
+          "parentUid" : "efd2ab57afbda85aa5dc2829f83e904e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1654190943803,
+            "stop" : 1654190944034,
+            "duration" : 231
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "efd2ab57afbda85aa5dc2829f83e904e"
+      } ],
+      "uid" : "134c345497d90db7cdfd2ac2403a55fa"
+    } ],
+    "uid" : "e95a3eea9d50964ce390714acb29c18d"
+  }, {
+    "name" : "test_get_channel_1",
+    "uid" : "f2a40652a771e79d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654190944037,
+      "stop" : 1654190944280,
+      "duration" : 243
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_01_post_article_1",
+    "uid" : "34433b3db8560c9b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1654190944283,
+      "stop" : 1654190944284,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_02_get_article_detail_1",
+    "uid" : "ab0ce89c029c038",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1654190944286,
+      "stop" : 1654190944286,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_03_update_draft_article_1",
+    "uid" : "e37bf22a0ff3982b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1654190944289,
+      "stop" : 1654190944289,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_04_delete_article_1",
+    "uid" : "ae1ab1d5da5bf285",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1654190944292,
+      "stop" : 1654190944292,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_05_get_articles_1",
+    "uid" : "49f7263e292c89b2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1654190944294,
+      "stop" : 1654190944513,
+      "duration" : 219
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_login_more_1___http___toutiao_itheima_net_v1_0_authorizations____17612917750____246810___None__201_",
+    "uid" : "7c2cb26cfdf76115",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1654190944611,
+      "stop" : 1654190944611,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_login_more_2___http___toutiao_itheima_net_v1_0_authorizations____17612917750____123456___None__400_",
+    "uid" : "ecdf97d4f7b98c3f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1654190944613,
+      "stop" : 1654190944613,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_login_more_3___http___toutiao_itheima_net_v1_0_authorizations____176129____123456___None__400_",
+    "uid" : "15673a6fbfd716ec",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1654190944616,
+      "stop" : 1654190944616,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_login_more_4___http___toutiao_itheima_net_v1_0_authorizations________123456___None__400_",
+    "uid" : "84d6144bca35e679",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1654190944618,
+      "stop" : 1654190944618,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_login_more_5___http___toutiao_itheima_net_v1_0_authorizations____17612917750_______None__400_",
+    "uid" : "745181850aa48b3f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1654190944620,
+      "stop" : 1654190944620,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  } ]
+}

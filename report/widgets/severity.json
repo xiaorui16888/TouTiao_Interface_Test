@@ -1,0 +1,121 @@
+[ {
+  "uid" : "49f7263e292c89b2",
+  "name" : "test_05_get_articles_1",
+  "time" : {
+    "start" : 1654190944294,
+    "stop" : 1654190944513,
+    "duration" : 219
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e37bf22a0ff3982b",
+  "name" : "test_03_update_draft_article_1",
+  "time" : {
+    "start" : 1654190944289,
+    "stop" : 1654190944289,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "f2a40652a771e79d",
+  "name" : "test_get_channel_1",
+  "time" : {
+    "start" : 1654190944037,
+    "stop" : 1654190944280,
+    "duration" : 243
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7c2cb26cfdf76115",
+  "name" : "test_login_more_1___http___toutiao_itheima_net_v1_0_authorizations____17612917750____246810___None__201_",
+  "time" : {
+    "start" : 1654190944611,
+    "stop" : 1654190944611,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "34433b3db8560c9b",
+  "name" : "test_01_post_article_1",
+  "time" : {
+    "start" : 1654190944283,
+    "stop" : 1654190944284,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "745181850aa48b3f",
+  "name" : "test_login_more_5___http___toutiao_itheima_net_v1_0_authorizations____17612917750_______None__400_",
+  "time" : {
+    "start" : 1654190944620,
+    "stop" : 1654190944620,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "15673a6fbfd716ec",
+  "name" : "test_login_more_3___http___toutiao_itheima_net_v1_0_authorizations____176129____123456___None__400_",
+  "time" : {
+    "start" : 1654190944616,
+    "stop" : 1654190944616,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "ab0ce89c029c038",
+  "name" : "test_02_get_article_detail_1",
+  "time" : {
+    "start" : 1654190944286,
+    "stop" : 1654190944286,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "ae1ab1d5da5bf285",
+  "name" : "test_04_delete_article_1",
+  "time" : {
+    "start" : 1654190944292,
+    "stop" : 1654190944292,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "ecdf97d4f7b98c3f",
+  "name" : "test_login_more_2___http___toutiao_itheima_net_v1_0_authorizations____17612917750____123456___None__400_",
+  "time" : {
+    "start" : 1654190944613,
+    "stop" : 1654190944613,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "a5d0ab3310c71fef",
+  "name" : "用户登录-预期成功",
+  "time" : {
+    "start" : 1654190943803,
+    "stop" : 1654190944034,
+    "duration" : 231
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "84d6144bca35e679",
+  "name" : "test_login_more_4___http___toutiao_itheima_net_v1_0_authorizations________123456___None__400_",
+  "time" : {
+    "start" : 1654190944618,
+    "stop" : 1654190944618,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+} ]

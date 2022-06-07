@@ -1,0 +1,9 @@
+{
+    "url": "http://toutiao.itheima.net/v1_0/mp/articles",
+    "headers": {
+        "content-type": "application/json",
+        "Authorization": "testAuthorization"
+    },
+    "except_code": "OK",
+    "status_code": 200
+}

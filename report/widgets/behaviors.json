@@ -1,0 +1,15 @@
+{
+  "total" : 12,
+  "items" : [ {
+    "uid" : "e95a3eea9d50964ce390714acb29c18d",
+    "name" : "针对业务场景的测试",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

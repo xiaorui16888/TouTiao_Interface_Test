@@ -1,0 +1,96 @@
+{
+  "uid" : "49f7263e292c89b2",
+  "name" : "test_05_get_articles_1",
+  "fullName" : "case.test_03_article.TestArticle#test_05_get_articles_1",
+  "historyId" : "060935e622ddc397b278e4c70296eddb",
+  "time" : {
+    "start" : 1654190944294,
+    "stop" : 1654190944513,
+    "duration" : 219
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: 200 != 401",
+  "statusTrace" : "self = <test_03_article.TestArticle testMethod=test_05_get_articles_1>\nurl = 'http://toutiao.itheima.net/v1_0/mp/articles'\nheaders = {'Authorization': '872adf28-cd2b-420d-93dc-b12a90ecd8d5', 'content-type': 'application/json'}\nstatus_code = 200, except_code = 'OK'\n\n    @data(get_data('get_article.json'))\n    @unpack\n    def test_05_get_articles(self, url, headers, status_code, except_code):\n        headers['Authorization'] = JsonUtil('token.json').read_json()['Authorization']\n        print('headers==', headers)\n        resp = ApiArticle().get_articles(url=url, headers=headers)\n        print(resp.json())\n    \n>       self.assertEqual(status_code, resp.status_code)\nE       AssertionError: 200 != 401\n\ncase\\test_03_article.py:115: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_unittest_setUpClass_fixture_TestArticle",
+    "time" : {
+      "start" : 1654190944283,
+      "stop" : 1654190944283,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_unittest_setUpClass_fixture_TestArticle::0",
+    "time" : {
+      "start" : 1654190944608,
+      "stop" : 1654190944608,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_03_article"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestArticle"
+  }, {
+    "name" : "host",
+    "value" : "XTZJ-20211101WA"
+  }, {
+    "name" : "thread",
+    "value" : "11904-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_03_article"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "49f7263e292c89b2.json",
+  "parameterValues" : [ ]
+}

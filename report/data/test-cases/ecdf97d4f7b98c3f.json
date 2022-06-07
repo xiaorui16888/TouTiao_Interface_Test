@@ -1,0 +1,62 @@
+{
+  "uid" : "ecdf97d4f7b98c3f",
+  "name" : "test_login_more_2___http___toutiao_itheima_net_v1_0_authorizations____17612917750____123456___None__400_",
+  "fullName" : "case.test_login_more.TestLoginMore#test_login_more_2___http___toutiao_itheima_net_v1_0_authorizations____17612917750____123456___None__400_",
+  "historyId" : "bea87972bc5edf896e83c636ad0a81e5",
+  "time" : {
+    "start" : 1654190944613,
+    "stop" : 1654190944613,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: 跳过",
+  "statusTrace" : "('D:\\\\Users\\\\Administrator\\\\PycharmProjects\\\\TouTiao_Interface_Test\\\\case\\\\test_login_more.py', 32, 'Skipped: 跳过')",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_login_more"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLoginMore"
+  }, {
+    "name" : "host",
+    "value" : "XTZJ-20211101WA"
+  }, {
+    "name" : "thread",
+    "value" : "11904-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_login_more"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ecdf97d4f7b98c3f.json",
+  "parameterValues" : [ ]
+}

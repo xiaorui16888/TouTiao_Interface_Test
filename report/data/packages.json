@@ -1,0 +1,229 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "case",
+    "children" : [ {
+      "name" : "test_01_login",
+      "children" : [ {
+        "name" : "用户登录-预期成功",
+        "uid" : "a5d0ab3310c71fef",
+        "parentUid" : "a96b58b57dc1dbffa882fce70392fbff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654190943803,
+          "stop" : 1654190944034,
+          "duration" : 231
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a96b58b57dc1dbffa882fce70392fbff"
+    }, {
+      "name" : "test_02_channel",
+      "children" : [ {
+        "name" : "test_get_channel_1",
+        "uid" : "f2a40652a771e79d",
+        "parentUid" : "3e3ac0a4d5ac17d88e5cb93fa393820c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654190944037,
+          "stop" : 1654190944280,
+          "duration" : 243
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3e3ac0a4d5ac17d88e5cb93fa393820c"
+    }, {
+      "name" : "test_03_article",
+      "children" : [ {
+        "name" : "test_01_post_article_1",
+        "uid" : "34433b3db8560c9b",
+        "parentUid" : "423d296b0ef3ec13c95682faaebca232",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1654190944283,
+          "stop" : 1654190944284,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_02_get_article_detail_1",
+        "uid" : "ab0ce89c029c038",
+        "parentUid" : "423d296b0ef3ec13c95682faaebca232",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1654190944286,
+          "stop" : 1654190944286,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_03_update_draft_article_1",
+        "uid" : "e37bf22a0ff3982b",
+        "parentUid" : "423d296b0ef3ec13c95682faaebca232",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1654190944289,
+          "stop" : 1654190944289,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_04_delete_article_1",
+        "uid" : "ae1ab1d5da5bf285",
+        "parentUid" : "423d296b0ef3ec13c95682faaebca232",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1654190944292,
+          "stop" : 1654190944292,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_05_get_articles_1",
+        "uid" : "49f7263e292c89b2",
+        "parentUid" : "423d296b0ef3ec13c95682faaebca232",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654190944294,
+          "stop" : 1654190944513,
+          "duration" : 219
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "423d296b0ef3ec13c95682faaebca232"
+    }, {
+      "name" : "test_login_more",
+      "children" : [ {
+        "name" : "test_login_more_1___http___toutiao_itheima_net_v1_0_authorizations____17612917750____246810___None__201_",
+        "uid" : "7c2cb26cfdf76115",
+        "parentUid" : "63921919d7ee9bab1ea1c538f3c7989f",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1654190944611,
+          "stop" : 1654190944611,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login_more_2___http___toutiao_itheima_net_v1_0_authorizations____17612917750____123456___None__400_",
+        "uid" : "ecdf97d4f7b98c3f",
+        "parentUid" : "63921919d7ee9bab1ea1c538f3c7989f",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1654190944613,
+          "stop" : 1654190944613,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login_more_3___http___toutiao_itheima_net_v1_0_authorizations____176129____123456___None__400_",
+        "uid" : "15673a6fbfd716ec",
+        "parentUid" : "63921919d7ee9bab1ea1c538f3c7989f",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1654190944616,
+          "stop" : 1654190944616,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login_more_4___http___toutiao_itheima_net_v1_0_authorizations________123456___None__400_",
+        "uid" : "84d6144bca35e679",
+        "parentUid" : "63921919d7ee9bab1ea1c538f3c7989f",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1654190944618,
+          "stop" : 1654190944618,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login_more_5___http___toutiao_itheima_net_v1_0_authorizations____17612917750_______None__400_",
+        "uid" : "745181850aa48b3f",
+        "parentUid" : "63921919d7ee9bab1ea1c538f3c7989f",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1654190944620,
+          "stop" : 1654190944620,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "63921919d7ee9bab1ea1c538f3c7989f"
+    } ],
+    "uid" : "3a5ff917f72cbd03b2a2ff2549394ef0"
+  } ]
+}
